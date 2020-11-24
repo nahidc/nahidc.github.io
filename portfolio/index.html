@@ -3,30 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Home | Spiraph</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio | Nahid Chowdhury</title>
 </head>
 <body>
-    <header class="main-header">
-            <h1>Spiraph</h1>
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="projects.html">Projects</a>
-                    <a href="contact.html">Contact</a>
-                </nav>
+    <header id="header">
+        <nav class="logo">
+        </nav>
+        <nav class="menu">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#projects">PROJECTS</a> 
+            <a href="">CV</a>
+        </nav>
     </header>
-    <hr class="top-hr"> 
-    <main id="index-main">
-        <div id="intro">
-            <h2 id="intro-heading">Original Tagline</h2>
-            <p id="intro-text">An aspiring web developer</p>
+
+    <main>
+        <section id="home">
+        <div class="center content">
+            <div class="introbox">
+                <div class="intropanel">
+                    <h2>NAHID<br>CHOWDHURY</h2>
+                    <p>A Computer Science Graduate aspiring to be a Web Developer.</p>
+                    <a href="#about"><button>ABOUT ME</button></a>
+                    <a href="#projects"><button>PROJECTS</button></a>
+                </div>
+                <img src="img/pfp.png" width="300" height="300">
+            </div>
         </div>
-        <div id="index-anim">Some Circle</div>
-    </main>
-    <hr>  
+        </section> 
+
+        <section id="about">
+            <div class="content">
+                <h2>About Me</h2>
+                <div class="aboutbox">
+                    <h3>Education</h3>
+                    <p>I graduated with a BSc in Computer Science at Queen Mary University of London in 2019. During my studies, I was exposed to several programming languages including: HTML, CSS, JavaScript, Java, C#, SQL and Python. Since I spent majority of my university life coding in Java, I was surprised when I aspired to become a Web Developer.</p>
+
+                    <h3>Journey of Web Development</h3>
+                    <p>Through this aspiration, I decide to learn HTML, CSS & JavaScript in greater depth. The similarities between Java and JavaScript made it relatively easy to pick up. Despite their similarities, Java had a strict nature regarding variable types while JavaScript was much more lean providing a greater degree of freedom.</p>
+
+                    <h3>Career</h3>
+                    <p>I'm hoping to continue my journey of Web Development and secure a full-time career working as a Web Developer.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="content">
+            <h2>Projects</h2>
+                <div class="projectbox">
+                    <section class="project">
+                        <a href="https://nahidc.github.io/calculator" target="_blank"><img src="img/calculator.png" alt="A calculator"></a>
+                        <section class="description">
+                            <h3>Calculator</h3>
+                            <p>Languages: HTML, CSS & JavaScript.<br>
+                               Description: Created a functioning calculator.</p>
+                        </section>
+                    </section>
+              
+                    <section class="project">
+                        <a href="https://nahidc.github.io/quiz" target="_blank">
+                            <img src="img/quiz.png" alt="A trivia quiz">
+                        </a>
+                        <section class="description">
+                            <h3>Quiz</h3>
+                            <p>Languages: HTML & CSS & JavaScript.<br>
+                               Description: Created a trivia quiz primarily using JavaScript.</p>
+                        </section>
+                    </section>
+
+                    <section class="project">
+                        <a href="https://nahidc.github.io/gallery" target="_blank">
+                            <img src="img/gallery.png" alt="A dog gallery">
+                        </a>
+                        <section class="description">
+                            <h3>Gallery</h3>
+                            <p>Languages: HTML, CSS & JavaScript.<br>
+                               Description: Created a dog gallery using scrollers from the Swiper API.</p>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>  
     <footer>
-    
-    </footer>
+        <p>Copyright © 2020 My Portfolio by Nahid Chowdhury.</p>
+        </p>
+        <nav>
+            <a href="https://www.linkedin.com/in/nahidc/" target="_blank">
+                <img src="img/linkedin.png" alt="linkedin" width="32">
+            </a>
+            <a href="https://github.com/nahidc/" target="_blank">
+                <img src="img/github.png" alt="github" width="32">
+            </a>
+            <a href="mailto:nahidc@hotmail.co.uk" target="_blank">
+                <img src="img/email.png" alt="email" width="32">
+            </a>
+        </nav>  
+    </footer> 
 </body>
+<script src="main.js"></script>
 </html>
+
+
+
+

@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+@keyframes spin {
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.main {
+    text-align: center;
+}
+
+.dog-img {
+    display: none;
+    margin: auto;
+}
+
+.load-icon {
+    display: none;
+    animation: spin 3s linear infinite;
+    font-size: 100px;
+    text-align: center;
+}
+
+.show {
+    display: block;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+}
